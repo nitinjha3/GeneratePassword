@@ -1,0 +1,62 @@
+body{
+    background:#002339;
+    color: #fff;
+}   
+.container{
+    margin:125px;
+    width:90%;
+    max-width: 600px;
+}
+
+.display{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 25px 20px;
+    color: #333;
+    border-radius: 5px;
+
+}
+.container h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.container h1 span{
+    color: green;
+    border-bottom: 4px solid green;
+    padding-bottom: 8px;
+}
+
+#Password{
+    font-size: 24px;
+    border: 0;
+    outline: 0;
+}
+
+.display img{
+   width: 24px; 
+   cursor: pointer;
+}
+.container button{
+   font-size: 24px;
+   background: rgb(6, 90, 6);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+   border-radius: 10px;
+   outline: dotted;
+   border: 0;
+   color: #fff;
+   cursor: pointer;
+}
+
+.container button img{
+    width: 26px;
+    margin-left: 10px;
+    
+}
