@@ -3,7 +3,9 @@ body{
     color: #fff;
 }   
 .container{
-    margin:125px;
+    /* margin:125px; */
+    margin: auto;
+    margin-top:125px;
     width:90%;
     max-width: 600px;
 }
@@ -16,7 +18,7 @@ body{
     width: 100%;
     margin-top: 35px;
     margin-bottom: 25px;
-    padding: 25px 20px;
+    /* padding: 25px 20px; */
     color: #333;
     border-radius: 5px;
 
@@ -32,14 +34,20 @@ body{
 }
 
 #Password{
+    width:100%;
+    
     font-size: 24px;
     border: 0;
     outline: 0;
+    padding: 25px 20px;
+    border-radius: 5px;
+
 }
 
 .display img{
    width: 24px; 
    cursor: pointer;
+   margin-right: 10px;
 }
 .container button{
    font-size: 24px;
